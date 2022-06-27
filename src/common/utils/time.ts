@@ -3,5 +3,5 @@ export function tempoParaSegundos (tempo: string){
 
   const horasEmSegundos = Number(horas) *3600;
   const minutosEmSegundos = Number(minutos) *60; 
-  return horasEmSegundos + minutosEmSegundos + Number (segundos)
+  return horasEmSegundos + minutosEmSegundos + Number (segundos);
 }

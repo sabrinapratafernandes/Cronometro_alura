@@ -9,16 +9,16 @@ interface ButtonProps {
 }
 
 
-function Botao ({onClick, type, children} : ButtonProps) {
+function Botao({ onClick, type, children }: ButtonProps) {
   return (
-    <button 
-    onClick={onClick} 
-    type={type} 
-    className={style.botao}>
+    <button
+      onClick={onClick}
+      type={type}
+      className={style.botao}>
 
-    {children}
-    
-  </button>
+      {children}
+
+    </button>
   );
 }
 
